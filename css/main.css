@@ -2,10 +2,10 @@
 
 /* ==== General ==== */
 
-body {
-  background: #eb106b;
-  background: linear-gradient(to right bottom, #e20eed, #110bb8);
-  background-repeat:no-repeat;
+body { /* body tag involves whole page */
+  width: 100%;
+  height: 100%;
+  background:linear-gradient(to right bottom, #eb106b, #e20eed, #110bb8);
   font-family: 'Roboto', sans-serif;
 }
 
