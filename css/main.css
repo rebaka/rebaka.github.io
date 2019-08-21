@@ -1,9 +1,12 @@
-div {
+body {
   background: #eb106b;
   background: linear-gradient(to right bottom, #e20eed, #110bb8);
+  font-family:monospace;
 }
 
-body {
-  background: #hsl(360, 100%, 100%);
-  font-family:monospace;
+ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
 }
