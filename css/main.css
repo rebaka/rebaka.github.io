@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+/* ==== General ==== */
+
 body {
   background: #eb106b;
   background: linear-gradient(to right bottom, #e20eed, #110bb8);
-  font-family:monospace;
+  background-repeat:no-repeat;
+  font-family: 'Roboto', sans-serif;
 }
 
 ul {
