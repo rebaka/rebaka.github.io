@@ -6,7 +6,7 @@ body { /* body tag involves whole page */
 	font-family: 'Roboto', sans-serif;
 	background:linear-gradient(to right bottom, #eb106b, #110bb8);
 	width: 100vw;
-   height: 100vh;
+   	height: 100vh;
 	overflow:hidden;
 	margin: 0;
 }
@@ -17,6 +17,8 @@ body { /* body tag involves whole page */
 	overflow: hidden;
 	background-color: white;
 	margin: 0;
+	font-size: 17px;
+	font-weight: bold;
 }
 
 .navlinks li {
@@ -31,7 +33,7 @@ body { /* body tag involves whole page */
 }
 
 .navlinks li a:hover {
-	color: #110bb8;
+	color: #737373;
 }
 
 h1{
