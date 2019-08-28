@@ -12,7 +12,30 @@ body { /* body tag involves whole page */
 
 .navlinks { /*nav*/
 	list-style-type: none;
-	text-align: center; 
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: white;
+}
+
+.navlinks li {
+	float: left;
+	display: inline;
+}
+
+.navlinks li a {
+	display: block;
+	color: #eb106b;
+	padding: 10px 14px;
+	text-decoration: none;
+}
+
+.navlinks li a:hover {
+  color: white;
+}
+
+h1{
+	color: white;
 }
 
 .description{
