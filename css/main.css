@@ -7,31 +7,31 @@ body { /* body tag involves whole page */
 	background:linear-gradient(to right bottom, #eb106b, #110bb8);
 	width: 100vw;
    height: 100vh;
-	overflow:hidden; 
+	overflow:hidden;
+	margin: 0;
 }
 
 .navlinks { /*nav*/
 	list-style-type: none;
-	margin: 0;
-	padding: 0;
+	padding: 1px;
 	overflow: hidden;
 	background-color: white;
+	margin: 0;
 }
 
 .navlinks li {
 	float: left;
-	display: inline;
 }
 
 .navlinks li a {
-	display: block;
+	display: inline-block;
 	color: #eb106b;
 	padding: 10px 14px;
 	text-decoration: none;
 }
 
 .navlinks li a:hover {
-  color: white;
+	color: #110bb8;
 }
 
 h1{
@@ -49,3 +49,4 @@ h1{
    float: center;
 	display: inline;
 }
+
