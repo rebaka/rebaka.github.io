@@ -4,28 +4,26 @@
 
 body { /* body tag involves whole page */
 	font-family: 'Roboto', sans-serif;
+	background:linear-gradient(to right bottom, #eb106b, #110bb8);
 	width: 100vw;
    height: 100vh;
-	background:linear-gradient(to right bottom, #eb106b, #110bb8);
 	overflow:hidden; 
 }
 
-ul {
+.navlinks { /*nav*/
 	list-style-type: none;
-	padding: 0px;
-	margin: 0px;
-	text-align: center;
+	text-align: center; 
 }
 
 .description{
 	color: black;
 	text-align: center; 
-	border: 1px white;
+	border: 10px white;
 }
 
 .social {
 	list-style-type: none;
-   padding-right: 2.6vw;
-   padding-left: 2.6vw;
    float: center;
+	display: inline;
 }
+
