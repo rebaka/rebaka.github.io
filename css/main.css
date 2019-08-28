@@ -3,13 +3,29 @@
 /* ==== General ==== */
 
 body { /* body tag involves whole page */
-  background:linear-gradient(to right bottom, #eb106b, #110bb8) fixed;
-  font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	width: 100vw;
+   height: 100vh;
+	background:linear-gradient(to right bottom, #eb106b, #110bb8);
+	overflow:hidden; 
 }
 
 ul {
-  list-style-type: none;
-  padding: 0px;
-  margin: 0px;
-  text-align: center;
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+}
+
+.description{
+	color: black;
+	text-align: center; 
+	border: 1px white;
+}
+
+.social {
+	list-style-type: none;
+   padding-right: 2.6vw;
+   padding-left: 2.6vw;
+   float: center;
 }
