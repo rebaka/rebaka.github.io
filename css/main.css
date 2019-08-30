@@ -6,7 +6,7 @@ body { /* body tag involves whole page */
 	font-family: 'Roboto', sans-serif;
 	background:linear-gradient(to right bottom, #eb106b, #110bb8);
 	width: 100vw;
-   height: 100vh;
+  	height: 100vh;
 	overflow:hidden;
 	margin: 0;
 }
@@ -48,7 +48,7 @@ h1{
 
 .social {
 	list-style-type: none;
-   float: center;
+   	float: center;
 	display: inline;
 	font-size: 35px;
 	font-color: white;
