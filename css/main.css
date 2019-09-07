@@ -1,14 +1,19 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 
-/* ==== General ==== */
+/* ==== General section ==== */
 
 body { /* body tag involves whole page */
-	font-family: 'Roboto', sans-serif;
-	background:linear-gradient(to right bottom, #eb106b, #110bb8);
+	font-family: 'Lato';
+	background: white;
 	width: 100vw;
-   height: 100vh;
-	overflow:hidden;
-	margin: 0;
+   	height: 100vh;
+	overflow: hidden;
+	margin: 10px 0px 0px 0px;
+}
+
+hr {
+	background: linear-gradient(70deg, #eb106b 40%, #110bb8);
+ 	height: 5px;
 }
 
 .navlinks { /*nav*/
@@ -16,8 +21,8 @@ body { /* body tag involves whole page */
 	padding: 1px;
 	overflow: hidden;
 	background-color: white;
-	margin: 0;
-	font-size: 17px;
+	margin: 0px;
+	font-size: 18px;
 	font-weight: bold;
 }
 
@@ -36,20 +41,20 @@ body { /* body tag involves whole page */
 	color: #110bb8;
 }
 
-.nav-box{
- 	padding : 4px;
-	margin: 8px 0px 0px 0px;
+/*.nav-box {
+ 	padding: 8px;
+	margin: 8px 0px 8px 0px;
 	background: white;
-}
+}*/
 
-h1{
+h1 {
 	color: #eb106b;
-	font-weight: 900;
-	font-size: 70px;
-	text-shadow: 1px 1px black;
+	font-weight: bold;
+	font-size: 60px;
+	text-shadow: 3px 3px #110bb8;
 }
 
-.description{
+.description {
 	color: black;
 	text-align: center; 
 }
@@ -59,21 +64,17 @@ h1{
    float: center;
 	display: inline;
 	font-size: 35px;
+	margin: 10px 10px 0px 0px;
 }
 
 .social a {
-	color: #eb106b;
-	text-shadow: 2.5px 2.5px #D0D0D0;
+	color: #4885ed;
 }
 
-.social a:hover{
-	color: #110bb8;
-	text-shadow: 2.5px 2.5px #D0D0D0;
+.social a:hover {
+	color: #2c6ddb;
 }
 
 /* ==== About section ==== */
 
 /* ==== Projects section ==== */
-
-
-
