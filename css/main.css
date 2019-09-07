@@ -6,7 +6,7 @@ body { /* body tag involves whole page */
 	font-family: 'Roboto', sans-serif;
 	background:linear-gradient(to right bottom, #eb106b, #110bb8);
 	width: 100vw;
-  	height: 100vh;
+   height: 100vh;
 	overflow:hidden;
 	margin: 0;
 }
@@ -36,21 +36,36 @@ body { /* body tag involves whole page */
 	color: #110bb8;
 }
 
+.nav-box{
+ 	padding : 4px;
+	margin: 4.5px 0 0 0;
+	background: white;
+}
+
 h1{
-	color: white;
+	color: #eb106b;
+	font-weight: 900;
+	text-shadow: 1px 1px black;
 }
 
 .description{
 	color: black;
 	text-align: center; 
-	border: 10px white;
 }
 
 .social {
 	list-style-type: none;
-   	float: center;
+   float: center;
 	display: inline;
 	font-size: 35px;
-	font-color: white;
 }
 
+.social a {
+	color: #eb106b;
+	text-shadow: 2.5px 2.5px #D0D0D0;
+}
+
+.social a:hover{
+	color: #110bb8;
+	text-shadow: 2.5px 2.5px #D0D0D0;
+}
