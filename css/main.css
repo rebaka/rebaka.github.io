@@ -38,13 +38,14 @@ body { /* body tag involves whole page */
 
 .nav-box{
  	padding : 4px;
-	margin: 4.5px 0 0 0;
+	margin: 8px 0px 0px 0px;
 	background: white;
 }
 
 h1{
 	color: #eb106b;
 	font-weight: 900;
+	font-size: 70px;
 	text-shadow: 1px 1px black;
 }
 
@@ -69,3 +70,10 @@ h1{
 	color: #110bb8;
 	text-shadow: 2.5px 2.5px #D0D0D0;
 }
+
+/* ==== About section ==== */
+
+/* ==== Projects section ==== */
+
+
+
